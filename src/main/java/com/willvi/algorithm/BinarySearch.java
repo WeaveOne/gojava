@@ -11,7 +11,7 @@ public class BinarySearch {
 
     public int search(int[] items, int item) {
         int low = 0;
-        int high = items.length;
+        int high = items.length - 1;
         int mid = 0;
         while (low <= high) {
             mid = (low + high) / 2;
@@ -29,7 +29,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] items = new int[]{1,2,3,4,5,6,7,8,9,10};
-        int search = new BinarySearch().search(items, 6);
+        int search = new BinarySearch().search(items, 11);
         System.out.println(search);
     }
 }
