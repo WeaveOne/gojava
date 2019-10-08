@@ -21,7 +21,7 @@ public class MyMethodInterceptor implements MethodInterceptor {
         enhancer.setCallback(this);
         return enhancer.create();
     }
-
+    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("代理开始");
         Object invoke = methodProxy.invokeSuper(o, objects);
