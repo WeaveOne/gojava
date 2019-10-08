@@ -8,6 +8,7 @@ package com.willvi.design.proxy.jdk;
  * @Version : 1.0
  */
 public class HelloWorldImpl implements IHelloWorld {
+    @Override
     public void sayHello() {
         System.out.println("hello world");
     }
