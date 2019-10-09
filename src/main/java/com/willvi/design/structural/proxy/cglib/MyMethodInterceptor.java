@@ -1,4 +1,4 @@
-package com.willvi.design.proxy.cglib;
+package com.willvi.design.structural.proxy.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

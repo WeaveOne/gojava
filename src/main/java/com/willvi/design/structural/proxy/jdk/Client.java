@@ -1,4 +1,4 @@
-package com.willvi.design.proxy.jdk;
+package com.willvi.design.structural.proxy.jdk;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationHandler;

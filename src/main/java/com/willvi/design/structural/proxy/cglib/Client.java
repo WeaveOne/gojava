@@ -1,4 +1,4 @@
-package com.willvi.design.proxy.cglib;
+package com.willvi.design.structural.proxy.cglib;
 
 /**
  * @ClassName : Client

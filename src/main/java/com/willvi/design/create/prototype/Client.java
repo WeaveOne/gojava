@@ -1,4 +1,4 @@
-package com.willvi.design.prototype;
+package com.willvi.design.create.prototype;
 
 /**
  * @ClassName : Client
