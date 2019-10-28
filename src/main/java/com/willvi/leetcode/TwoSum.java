@@ -1,17 +1,22 @@
 package com.willvi.leetcode;
 
+import java.util.Optional;
+
 /**
  * @author wangwei
  * @date 2019/10/25 10:56
  */
 public class TwoSum {
+    public static void main(String[] args) {
+        twoSum(new int[]{2,7,34,123}, 9);
+    }
     /**
      * 主要思想还是hash表的运用
      * @param nums
      * @param target
      * @return
      */
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         if (nums == null) {
             return null;
         }
